@@ -338,6 +338,21 @@
    `(centaur-tabs-unselected-modified ((t (:background ,surface :foreground ,tertiary))))
    `(centaur-tabs-active-bar-face ((t (:background ,primary))))
    
+   ;; message
+   `(message-header-to ((t (:foreground ,term10))))
+   `(message-header-cc ((t (:foreground ,term10))))
+   `(message-header-subject ((t (:foreground ,term12))))
+   `(message-header-newsgroups ((t (:foreground ,term12))))
+   `(message-header-other ((t (:foreground ,term9))))
+   `(message-header-xheader ((t (:foreground ,term5))))
+   `(message-header-separator ((t (:foreground ,term4))))
+   `(message-cited-text-1 ((t (:foreground ,term3))))
+   `(message-cited-text-2 ((t (:foreground ,term4))))
+   `(message-cited-text-3 ((t (:foreground ,term1))))
+   `(message-cited-text-4 ((t (:foreground ,term2))))
+   `(message-header-mml ((t (:foreground ,secondary))))
+   `(message-signature-separator ((t (:foreground ,term4))))
+
    ;; Fixed-pitch faces
    `(fixed-pitch ((t (:family "monospace"))))
    `(fixed-pitch-serif ((t (:family "monospace serif"))))
