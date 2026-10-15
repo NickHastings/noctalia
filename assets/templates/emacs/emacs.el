@@ -344,13 +344,14 @@
    `(message-header-subject ((t (:foreground ,term12))))
    `(message-header-newsgroups ((t (:foreground ,term12))))
    `(message-header-other ((t (:foreground ,term9))))
+   `(message-header-name ((t (:foreground ,term9))))
    `(message-header-xheader ((t (:foreground ,term5))))
-   `(message-header-separator ((t (:foreground ,term4))))
+   `(message-separator ((t (:foreground ,term4))))
    `(message-cited-text-1 ((t (:foreground ,term3))))
    `(message-cited-text-2 ((t (:foreground ,term4))))
    `(message-cited-text-3 ((t (:foreground ,term1))))
    `(message-cited-text-4 ((t (:foreground ,term2))))
-   `(message-header-mml ((t (:foreground ,secondary))))
+   `(message-mml ((t (:foreground ,term3))))
    `(message-signature-separator ((t (:foreground ,term4))))
 
    ;; Fixed-pitch faces
